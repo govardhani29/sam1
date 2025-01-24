@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0; 
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; 
+    gap: 30px; 
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.flex-box {
+    flex: 0 0 calc(25% - 35px); 
+    height: 300px; 
+    background-color: rgb(35, 97, 114);
+    border-radius: 2px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: flex; 
+    align-items: center; 
+    /* justify-content: center;  */
+    color: white; 
+    font-size: 1.5rem; 
+    flex-direction: column;
+}
+.font-top {
+    color: white;
+    justify-content: space-between;
+    width:100%;
+    display:flex;
+    margin-left:-10px;
+    
+}
+#card-1-font {
+    font-size: 6px;
+}
+.flex-box-card1 {
+   
+
+}
